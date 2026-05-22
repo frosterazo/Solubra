@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Sora, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#34332f"/>
+      <stop offset="0.6" stop-color="#222220"/>
+      <stop offset="1" stop-color="#171715"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- retícula técnica -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="158" x2="1200" y2="158"/>
+    <line x1="0" y1="316" x2="1200" y2="316"/>
+    <line x1="0" y1="474" x2="1200" y2="474"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+
+  <!-- Marca -->
+  <g transform="translate(90,76)">
+    <rect width="66" height="66" rx="16" fill="#2e2d2b" stroke="#47463f" stroke-width="1"/>
+    <g transform="translate(33,33)" fill="#cfcfca">
+      <rect x="-4" y="-30" width="8" height="12" rx="2"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(45)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(90)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(135)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(180)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(225)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(270)"/>
+      <rect x="-4" y="-30" width="8" height="12" rx="2" transform="rotate(315)"/>
+      <circle r="18.5"/>
+    </g>
+    <circle cx="33" cy="33" r="8" fill="#9a3b30"/>
+    <text x="88" y="46" fill="#ffffff" font-size="40" font-weight="800">Solubra</text>
+  </g>
+
+  <!-- Titular -->
+  <text x="90" y="296" fill="#ffffff" font-size="66" font-weight="800">Mecánica y reparación de</text>
+  <text x="90" y="376" fill="#ffffff" font-size="66" font-weight="800">vehículos de emergencia</text>
+
+  <!-- Subtítulo -->
+  <text x="90" y="452" fill="#bcbcb6" font-size="32" font-weight="400">Carrocería · Electricidad · Instalación de componentes</text>
+
+  <!-- Pie -->
+  <text x="90" y="556" fill="#74746e" font-size="28" font-weight="600">www.solubra.cl  ·  +56 9 6178 9088</text>
+</svg>

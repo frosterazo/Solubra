@@ -1,0 +1,18 @@
+{
+  "name": "Solubra - Vehículos de Emergencia",
+  "short_name": "Solubra",
+  "description": "Servicio integral para vehículos de emergencia: carrocería, electricidad e instalación de componentes.",
+  "lang": "es-CL",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#232321",
+  "theme_color": "#232321",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
