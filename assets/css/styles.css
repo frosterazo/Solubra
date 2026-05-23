@@ -462,6 +462,27 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.18; font-weight: 700;
 .contact-list a:hover { color: var(--accent); }
 .contact-direct { margin-top: 0.4rem; }
 
+.contact-map {
+  margin-top: 1.6rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--steel-100);
+  box-shadow: var(--shadow-sm);
+  background: var(--steel-100);
+}
+.contact-map iframe {
+  display: block; width: 100%; height: 290px; border: 0;
+  filter: grayscale(0.18) contrast(1.04);
+}
+.contact-map-link {
+  display: flex; align-items: center; justify-content: center; gap: 0.55rem;
+  padding: 0.85rem 1rem;
+  background: var(--steel-900); color: #fff !important;
+  font-family: var(--font-head); font-weight: 600; font-size: 0.92rem;
+  transition: background var(--ease);
+}
+.contact-map-link:hover { background: var(--steel-800); color: #fff !important; }
+
 .contact-form-wrap {
   background: var(--white); border: 1px solid var(--steel-100);
   border-radius: var(--radius-lg); padding: clamp(1.6rem, 3.5vw, 2.6rem);
