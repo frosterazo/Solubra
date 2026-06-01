@@ -166,12 +166,8 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.18; font-weight: 700;
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
 
 .brand { display: inline-flex; align-items: center; }
-.brand-logo { height: 52px; width: auto; }
-.brand-footer {
-  background: #fff; padding: 9px 14px;
-  border-radius: var(--radius-sm); box-shadow: var(--shadow-sm);
-}
-.brand-footer img { height: 54px; width: auto; }
+.brand-logo { height: 54px; width: auto; }
+.brand-footer img { height: 58px; width: auto; }
 
 .main-nav { display: flex; align-items: center; gap: 0.3rem; }
 .main-nav > a:not(.btn) {
@@ -331,6 +327,11 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.18; font-weight: 700;
 }
 .service-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
 .service-card:hover::before { transform: scaleY(1); }
+.service-card-wide { grid-column: 1 / -1; }
+.service-card-wide .check-list { display: grid; gap: 0.55rem; grid-template-columns: repeat(2, 1fr); column-gap: 1.6rem; }
+@media (max-width: 760px) {
+  .service-card-wide .check-list { grid-template-columns: 1fr; }
+}
 .service-num {
   font-family: var(--font-mono); font-weight: 700; font-size: 1.6rem;
   color: var(--steel-300); line-height: 1;
